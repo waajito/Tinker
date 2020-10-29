@@ -4,14 +4,14 @@ import csv
 root = Tk()
 
 #Labels
-admiL = Label(root,text="Admission Number")
-nameL = Label(root,text="Name")
-fatherL = Label(root,text="Father Name")
-mobileL = Label(root,text="Mobile Number")
-emailL = Label(root,text="Email ID")
-desgAddL = Label(root,text="Designation-Address of Organisation")
-perAddL = Label(root,text="Permanent Address")
-preAddL = Label(root,text="Present Address")
+admiL = Label(root,text="Roll no.")
+nameL = Label(root,text="First Name")
+fatherL = Label(root,text="Last Name")
+mobileL = Label(root,text="Phone no.")
+emailL = Label(root,text="Email")
+desgAddL = Label(root,text="Address")
+perAddL = Label(root,text="Present Address")
+preAddL = Label(root,text="Office Address")
 
 #Input fields
 admi = Entry(root)
