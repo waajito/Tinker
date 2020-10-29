@@ -44,6 +44,10 @@ desgAdd.grid(row=5,column=1,pady=10)
 perAdd.grid(row=6,column=1,pady=10)
 preAdd.grid(row=7,column=1,pady=10)
 
+digital.grid(row=8,column=2,pady=10)
+rounded.grid(row=9,column=2,pady=10)
+leveler.grid(row=10,column=2,pady=10)
+
 def showdata():
     with open('personnel.csv','w') as csvfile:
         filewriter = csv.writer(csvfile,delimiter=',',quotechar='|',quoting=csv.QUOTE_MINIMAL)
