@@ -47,6 +47,9 @@ preAdd.grid(row=7,column=1,pady=10)
 digital.grid(row=8,column=2,pady=10)
 rounded.grid(row=9,column=2,pady=10)
 leveler.grid(row=10,column=2,pady=10)
+metter.grid(row=8,column=2,pady=10)
+brick.grid(row=9,column=2,pady=10)
+honda.grid(row=10,column=2,pady=10)
 
 def showdata():
     with open('personnel.csv','w') as csvfile:
